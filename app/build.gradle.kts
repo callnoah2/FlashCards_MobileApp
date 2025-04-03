@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.assignment5"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.assignment5"
@@ -40,7 +40,11 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.compose.ui:ui:1.5.4")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("androidx.compose.ui:ui:1.5.4")
+    implementation("androidx.compose.foundation:foundation:1.5.4")
+    implementation("androidx.compose.material3:material3:1.2.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
